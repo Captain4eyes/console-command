@@ -1,0 +1,20 @@
+{
+    "name": "ming/search",
+    "description": "Console command which search files in specific directory (recursive), extensions and save it to pdf with directory structure",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Stanislav Abrosimov",
+            "email": "ming280895@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^3.3",
+        "mpdf/mpdf": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Command\\": "src/command"
+        }
+    }
+}
